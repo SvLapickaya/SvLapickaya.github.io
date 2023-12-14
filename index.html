@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slate</title>
 
+    <link type="image/x-icon" rel="shortcut icon" href="img/icon/favicon.ico">
+
     <link rel="stylesheet" href="css/normolize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -34,16 +36,12 @@
           <button class="navbar__btn btn" aria-label="Войти">Войти</button>
         </nav>
         <div class="header__body">
-          <div class="header__title">
-            <h1>Работайте на <br>скорости мысли</h1>
-          </div>
-          <div class="header__sub-title sub-heading">
-            <p>
+            <h1 class="header__title">Работайте на <br> скорости мысли</h1>        
+            <p class="header__sub-title sub-heading">
               Большинство календарей предназначены для команд. Slate
               предназначен для фрилансеров, которым нужен удобный способ
               планировать свой график.
-            </p>
-          </div>
+            </p>          
         </div>
         <div class="header__button button">
           <button
@@ -71,117 +69,101 @@
             </p>
           </div>
           <div class="chance__body">
-            <div class="chance__left">
-              <img
-                class="chat"
-                src="img/chat-content.png"
-                alt="Чат для общения">
-              <img
-                class="line-chat"
-                src="img/Line-chat.png"
-                alt="График коммерческих сетей">
-            </div>
+            <div class="chance__left"></div>
             <div class="chance__right">
-              <ul class="chance__list">
-                <li class="chance__item">
-                  <div class="chance__headline">
-                    <svg
-                      class="chance__icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="26"
-                      height="24"
-                      viewBox="0 0 26 24"
-                    >
-                      <path
-                        d="M7.64636 13.7764L11.4197 10.003L3.16636 1.76302C2.52636 1.12302 1.41969 1.29636 
-                    1.01969 2.12302C0.073024 4.10969 0.419691 6.54969 2.05969 8.20302L7.64636 
-                    13.7764ZM16.6864 11.363C18.7264 12.3097 21.593 11.643 23.713 9.52302C26.2597 
-                    6.97635 26.753 3.32302 24.793 1.36302C22.8464 -0.583644 19.193 -0.103644 16.633 
-                    2.44302C14.513 4.56302 13.8464 7.42969 14.793 9.46969L2.71302 21.5497C2.46372 
-                    21.799 2.32366 22.1371 2.32366 22.4897C2.32366 22.8423 2.46372 23.1804 2.71302 
-                    23.4297C2.96233 23.679 3.30046 23.819 3.65302 23.819C4.00559 23.819 4.34372 23.679 
-                    4.59302 23.4297L12.8464 15.203L21.0864 23.443C21.2098 23.5665 21.3563 23.6644 
-                    21.5176 23.7312C21.6789 23.798 21.8518 23.8324 22.0264 23.8324C22.2009 23.8324 
-                    22.3738 23.798 22.5351 23.7312C22.6964 23.6644 22.8429 23.5665 22.9664 
-                    23.443C23.0898 23.3196 23.1877 23.173 23.2545 23.0117C23.3213 22.8505 23.3557 
-                    22.6776 23.3557 22.503C23.3557 22.3284 23.3213 22.1556 23.2545 21.9943C23.1877 
-                    21.833 23.0898 21.6865 22.9664 21.563L14.7264 13.323L16.6864 11.363Z"
-                      />
-                    </svg>
-                    <h3 class="chance__content title">Полезные подсказки</h3>
-                  </div>
-                  <div class="chance__descr paragraphe">
-                    <p>
-                      Когда вы добавите задачу в свой календарь, Slate предложит
-                      полезную информацию.
-                    </p>
-                  </div>
-                </li>
-                <li class="chance__item">
-                  <div class="chance__headline">
-                    <svg
-                      class="chance__icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="30"
-                      height="31"
-                      viewBox="0 0 30 31"
-                    >
-                      <path
-                        d="M12.5495 14.2274C14.0285 16.6874 13.811 19.5824 12.042 20.7524C10.273 21.8924 
-                    7.634 20.8274 6.1405 18.3674C4.6615 15.9074 4.8935 12.9824 6.6625 11.8424C8.4315 
-                    10.7024 11.0705 11.7674 12.5495 14.2274ZM15 24.4574C17.9 24.4574 18.625 23.3324 
-                    18.625 23.3324C18.625 23.3324 17.9 26.3324 15 26.3324C12.1 26.3324 11.375 23.3774 
-                    11.375 23.3324C11.375 23.3324 12.1 24.4574 15 24.4574ZM23.3375 11.8424C25.1065 
-                    12.9824 25.3385 15.9074 23.8595 18.3674C22.366 20.8274 19.727 21.8924 17.958 
-                    20.7524C16.189 19.5824 15.9715 16.6874 17.4505 14.2274C18.9295 11.7674 21.5685 
-                    10.7024 23.3375 11.8424ZM15 27.8324C18.625 27.8324 26.6 20.1224 26.6 14.3324C26.6 
-                    8.5424 21.3945 3.8324 15 3.8324C8.6055 3.8324 3.4 8.5424 3.4 14.3324C3.4 20.1224 
-                    11.375 27.8324 15 27.8324ZM15 0.832397C22.975 0.832397 29.5 6.8924 29.5 14.3324C29.5 
-                    20.4524 21.264 30.8324 15 30.8324C8.736 30.8324 0.5 20.4524 0.5 14.3324C0.5 6.8924 
-                    7.025 0.832397 15 0.832397Z"
-                      />
-                    </svg>
-                    <h3 class="chance__content title">Умный интерфейс</h3>
-                  </div>
-                  <div class="chance__descr paragraphe">
-                    <p>
-                      Интерфейс приложения автоматически подстраивается под вашу
-                      текущую задачу.
-                    </p>
-                  </div>
-                </li>
-                <li class="chance__item">
-                  <div class="chance__headline">
-                    <svg
-                      class="chance__icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="42"
-                      height="20"
-                      viewBox="0 0 42 20"
-                    >
-                      <path
-                        d="M32.275 0.83256C29.815 0.83256 27.4917 1.8214 25.8346 3.53423L13.825 
-                    14.5528C12.7317 15.6829 11.2796 16.3009 9.725 16.3009C6.53042 16.3009 3.91667 
-                    13.6346 3.91667 10.3325C3.91667 7.0305 6.53042 4.36415 9.725 4.36415C11.2796 
-                    4.36415 12.7317 4.98218 13.8933 6.18292L15.8238 7.94872L18.4375 5.58255L16.2508 
-                    3.62252C15.3953 2.7349 14.3782 2.03133 13.2581 1.55246C12.1379 1.07358 10.9371 
-                    0.828905 9.725 0.83256C4.63417 0.83256 0.5 5.10579 0.5 10.3325C0.5 15.5593 4.63417 
-                    19.8325 9.725 19.8325C12.185 19.8325 14.5083 18.8437 16.1654 17.1309L28.175 
-                    6.11229C29.2683 4.98218 30.7204 4.36415 32.275 4.36415C35.4696 4.36415 38.0833 
-                    7.0305 38.0833 10.3325C38.0833 13.6346 35.4696 16.3009 32.275 16.3009C30.7375 
-                    16.3009 29.2683 15.6829 28.1067 14.4822L26.125 12.6987L23.5625 15.0649L25.7492 
-                    17.0426C26.607 17.9257 27.625 18.6252 28.7448 19.1009C29.8646 19.5767 31.0643 
-                    19.8193 32.275 19.8149C37.3658 19.8149 41.5 15.5593 41.5 10.3325C41.5 5.03515 
-                    37.3658 0.83256 32.275 0.83256Z"
-                      />
-                    </svg>
-                    <h3 class="chance__content title">Синхронизация</h3>
-                  </div>
-                  <div class="chance__description paragraphe">
-                    <p>Slate синхронизируется со всеми вашими календарями.</p>
-                  </div>
-                </li>
-              </ul>
+              <div class="chance__list">
+                <div class="chance__headline">
+                  <svg
+                    class="chance__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="26"
+                    height="24"
+                    viewBox="0 0 26 24"
+                  >
+                    <path
+                      d="M7.64636 13.7764L11.4197 10.003L3.16636 1.76302C2.52636 1.12302 1.41969 1.29636 
+                  1.01969 2.12302C0.073024 4.10969 0.419691 6.54969 2.05969 8.20302L7.64636 
+                  13.7764ZM16.6864 11.363C18.7264 12.3097 21.593 11.643 23.713 9.52302C26.2597 
+                  6.97635 26.753 3.32302 24.793 1.36302C22.8464 -0.583644 19.193 -0.103644 16.633 
+                  2.44302C14.513 4.56302 13.8464 7.42969 14.793 9.46969L2.71302 21.5497C2.46372 
+                  21.799 2.32366 22.1371 2.32366 22.4897C2.32366 22.8423 2.46372 23.1804 2.71302 
+                  23.4297C2.96233 23.679 3.30046 23.819 3.65302 23.819C4.00559 23.819 4.34372 23.679 
+                  4.59302 23.4297L12.8464 15.203L21.0864 23.443C21.2098 23.5665 21.3563 23.6644 
+                  21.5176 23.7312C21.6789 23.798 21.8518 23.8324 22.0264 23.8324C22.2009 23.8324 
+                  22.3738 23.798 22.5351 23.7312C22.6964 23.6644 22.8429 23.5665 22.9664 
+                  23.443C23.0898 23.3196 23.1877 23.173 23.2545 23.0117C23.3213 22.8505 23.3557 
+                  22.6776 23.3557 22.503C23.3557 22.3284 23.3213 22.1556 23.2545 21.9943C23.1877 
+                  21.833 23.0898 21.6865 22.9664 21.563L14.7264 13.323L16.6864 11.363Z"
+                    />
+                  </svg>
+                  <div class="chance__title">
+                  <h3 class="chance__content title">Полезные подсказки</h3></div>
+                </div>                               
+                <p class="chance__descr paragraphe">
+                    Когда вы добавите задачу в свой календарь, Slate предложит
+                    полезную информацию.
+                </p>  
+              </div>
+              <div class="chance__list">
+                <div class="chance__headline">
+                  <svg
+                    class="chance__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="31"
+                    viewBox="0 0 30 31"
+                  >
+                    <path
+                      d="M12.5495 14.2274C14.0285 16.6874 13.811 19.5824 12.042 20.7524C10.273 21.8924 
+                  7.634 20.8274 6.1405 18.3674C4.6615 15.9074 4.8935 12.9824 6.6625 11.8424C8.4315 
+                  10.7024 11.0705 11.7674 12.5495 14.2274ZM15 24.4574C17.9 24.4574 18.625 23.3324 
+                  18.625 23.3324C18.625 23.3324 17.9 26.3324 15 26.3324C12.1 26.3324 11.375 23.3774 
+                  11.375 23.3324C11.375 23.3324 12.1 24.4574 15 24.4574ZM23.3375 11.8424C25.1065 
+                  12.9824 25.3385 15.9074 23.8595 18.3674C22.366 20.8274 19.727 21.8924 17.958 
+                  20.7524C16.189 19.5824 15.9715 16.6874 17.4505 14.2274C18.9295 11.7674 21.5685 
+                  10.7024 23.3375 11.8424ZM15 27.8324C18.625 27.8324 26.6 20.1224 26.6 14.3324C26.6 
+                  8.5424 21.3945 3.8324 15 3.8324C8.6055 3.8324 3.4 8.5424 3.4 14.3324C3.4 20.1224 
+                  11.375 27.8324 15 27.8324ZM15 0.832397C22.975 0.832397 29.5 6.8924 29.5 14.3324C29.5 
+                  20.4524 21.264 30.8324 15 30.8324C8.736 30.8324 0.5 20.4524 0.5 14.3324C0.5 6.8924 
+                  7.025 0.832397 15 0.832397Z"
+                    />
+                  </svg>
+                  <h3 class="chance__content title">Умный интерфейс</h3>
+                </div>                
+                <p class="chance__descr paragraphe">
+                    Интерфейс приложения автоматически подстраивается под вашу
+                    текущую задачу.
+                </p>                
+              </div>
+              <div class="chance__list">
+                <div class="chance__headline">
+                  <svg
+                    class="chance__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="42"
+                    height="20"
+                    viewBox="0 0 42 20"
+                  >
+                    <path
+                      d="M32.275 0.83256C29.815 0.83256 27.4917 1.8214 25.8346 3.53423L13.825 
+                  14.5528C12.7317 15.6829 11.2796 16.3009 9.725 16.3009C6.53042 16.3009 3.91667 
+                  13.6346 3.91667 10.3325C3.91667 7.0305 6.53042 4.36415 9.725 4.36415C11.2796 
+                  4.36415 12.7317 4.98218 13.8933 6.18292L15.8238 7.94872L18.4375 5.58255L16.2508 
+                  3.62252C15.3953 2.7349 14.3782 2.03133 13.2581 1.55246C12.1379 1.07358 10.9371 
+                  0.828905 9.725 0.83256C4.63417 0.83256 0.5 5.10579 0.5 10.3325C0.5 15.5593 4.63417 
+                  19.8325 9.725 19.8325C12.185 19.8325 14.5083 18.8437 16.1654 17.1309L28.175 
+                  6.11229C29.2683 4.98218 30.7204 4.36415 32.275 4.36415C35.4696 4.36415 38.0833 
+                  7.0305 38.0833 10.3325C38.0833 13.6346 35.4696 16.3009 32.275 16.3009C30.7375 
+                  16.3009 29.2683 15.6829 28.1067 14.4822L26.125 12.6987L23.5625 15.0649L25.7492 
+                  17.0426C26.607 17.9257 27.625 18.6252 28.7448 19.1009C29.8646 19.5767 31.0643 
+                  19.8193 32.275 19.8149C37.3658 19.8149 41.5 15.5593 41.5 10.3325C41.5 5.03515 
+                  37.3658 0.83256 32.275 0.83256Z"
+                    />
+                  </svg>
+                  <h3 class="chance__content title">Синхронизация</h3>
+                </div>                
+                <p class="chance__description paragraphe">Slate синхронизируется со всеми вашими календарями.</p>                
+              </div>
             </div>
           </div>
         </section>
@@ -208,7 +190,7 @@
               </button>
               <div class="card__item">
                 <div class="card__screen">
-                  <img src="img/macbook.png" alt="монитор ноутбука">
+                  
                 </div>
                 <div class="card__base"></div>
               </div>
@@ -230,11 +212,7 @@
               >
                 Попробовать бесплатно
               </button>
-              <div class="card__icon">
-                <img
-                  src="img/Boards-Notifications.png"
-                  alt="Уведомления на доске объявлений">
-              </div>
+              <div class="card__icon"></div>
             </div>
           </div>
         </section>
@@ -300,38 +278,38 @@
             Смотреть еще
           </button>
         </section>
-        <section class="partners" id="partners">
+        <section class="partners">
           <div class="partners__heading">
             <h2 class="partners__title heading">Партнёры</h2>
             <p class="partners__sub-title sub-heading">
               Коллаборация с партнерами дает дополнительные
-              возможности в использовании Slate..
+              возможности в использовании Slate.
             </p>
           </div>
           <div class="partners__body">
             <ul class="partners__list">
               <li class="partners__item">
-                <a href="#partners" class="partners__link">
+                <a href="https://www.apple.com/app-store/" target="_blank" class="partners__link">
                   <img src="img/icon/apple-app-store.svg" alt="Apple App Store"></a>
               </li>
               <li class="partners__item">
-                <a href="#partners" class="partners__link">
+                <a href="https://apiary.io" target="_blank" class="partners__link">
                   <img src="img/icon/apiary.svg" alt="Apiary"></a>
               </li>
               <li class="partners__item">
-                <a href="#partners" class="partners__link">
+                <a href="https://www.android.com" target="_blank" class="partners__link">
                   <img src="img/icon/android.svg" alt="Android"></a>
               </li>
               <li class="partners__item">
-                <a href="#partners" class="partners__link">
+                <a href="https://basecamp.com" target="_blank" class="partners__link">
                   <img src="img/icon/basecamp.svg" alt="BaseCamp"></a>
               </li>
               <li class="partners__item">
-                <a href="#partners" class="partners__link">
+                <a href="https://ru.airbnb.com" target="_blank" class="partners__link">
                   <img src="img/icon/airbnb.svg" alt="Air BNB"></a>
               </li>
               <li class="partners__item item-ibm">
-                <a href="#partners" class="partners__link">
+                <a href="https://www.ibm.com" target="_blank" class="partners__link">
                   <img src="img/icon/ibm.svg" alt="IBM"></a>
               </li>
             </ul>
@@ -449,7 +427,7 @@
             </li>
           </ul>
           <address class="footer__adress" id="adress">
-            <a class="contact-link link" href="#adress">
+            <a class="contact-link link" href="https://www.google.by/maps/place/ул.+Московская,+1,+Чехов,+Московская+обл.,+Россия,+142350/@55.2505898,37.4877212,17z/data=!3m1!4b1!4m6!3m5!1s0x41355b6ec44b70c1:0x88163391a378e1da!8m2!3d55.2505898!4d37.4902961!16s%2Fg%2F11c0z6vpbn?entry=ttu" target="_blank">
               <svg
                 width="41"
                 height="42"
@@ -471,7 +449,7 @@
               </svg>
               <span>ул.Московская, д 1.</span></a
             >
-            <a class="contact-link link" href="#adress">
+            <a class="contact-link link" href="tel:+79414323211">
               <svg
                 width="41"
                 height="42"
@@ -489,10 +467,11 @@
               </svg>
               <span>+7 (941) 432-32-11</span></a
             >
-            <div class="social-links">
+            <div class="social">
               <a
-                class="contact-link"
-                href="#adress"
+                class="social__link"
+                href="https://twitter.com/?lang=ru"
+                target="_blank"
                 aria-label="Перейти на твиттер"
                 ><svg
                   width="41"
@@ -509,8 +488,9 @@
                 </svg>
               </a>
               <a
-                class="contact-link"
-                href="#adress"
+                class="social__link"
+                href="https://ru-ru.facebook.com"
+                target="_blank"
                 aria-label="Перейти на фейсбук"
                 ><svg
                   width="42"
@@ -527,8 +507,9 @@
                 </svg>
               </a>
               <a
-                class="contact-link"
-                href="#adress"
+                class="social__link"
+                href="https://www.linkedin.com"
+                target="_blank"
                 aria-label="Перейти на линкедин"
                 ><svg
                   width="42"
