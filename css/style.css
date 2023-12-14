@@ -766,6 +766,9 @@ background-size: contain;
   display: flex;
   gap: 10px;
 }
+.comments__avatar{
+  max-height: 51px;
+}
 .comments__subtitle{
   padding: 0;
 }
